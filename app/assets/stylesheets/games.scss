@@ -1,0 +1,81 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  font-family: Arial;
+  font-weight: normal;
+  background-color: #A0A0A0;
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFF;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+form {
+  width: 90%;
+  display: flex;
+  height: 2.5em;
+}
+label {
+  display: block;
+  padding: 10px;
+}
+#form {
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-style: none;
+  border: 1px solid #CCC;
+  border-right: none;
+  box-shadow: inset 1px 1px 2px #CCC;
+}
+#button {
+  width: auto;
+  padding: 12px;
+  margin: 0;
+  color: white;
+  background-color: #377BB5;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-style: none;
+}
+ul {
+  margin: 0;
+}
+.list-inline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.list-inline li {
+  display: inline-block;
+}
+li {
+  border-radius: 4px;
+  font-family: Courier;
+  color: white;
+
+  font-size: 1.5em;
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: #3A99D9;
+  box-shadow: 2px 2px 3px gray;
+}
+.results {
+  margin: 20px;
+  width: 40%;
+  font-size: 0.8em;
+  padding: 20px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 2px gray;
+}
